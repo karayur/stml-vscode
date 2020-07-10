@@ -1,0 +1,26 @@
+{
+    "name": "stml",
+    "publisher": "yk",
+    "displayName": "stml",
+    "description": "SomeThing Modeling Language / System Thinking Modeling Language / SysTem Management Modeling / or whatever",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "stml",
+            "aliases": ["stml", "stml"],
+            "extensions": [".stml",".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "stml",
+            "scopeName": "source.stml",
+            "path": "./syntaxes/stml.tmLanguage.json"
+        }]
+    }
+}
